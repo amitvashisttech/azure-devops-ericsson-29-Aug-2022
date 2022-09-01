@@ -19,4 +19,9 @@ steps:
     cd calculator
     npm install
     npm run build
-  displayName: 'npm install and build'
+  displayName: 'Npm install and build'
+
+- script: |
+    cd calculator
+    npm test
+  displayName: 'Npm Testing'
